@@ -1,32 +1,20 @@
-import React from 'react';
+import React from "react";
+// import { Hero } from "./components/Hero";
+import { TopBar } from "./components/TopBar";
+import { Footer } from "./components/Footer";
+// import { Main } from "./components/Main";
 
 function App() {
   return (
-    <div className="flex flex-col h-full items-center justify-center bg-gray-200 text-gray-700">
-      <div className="flex items-center">
-        <h1 className="text-6xl font-thin tracking-wider">Create React App + Tailwind CSS</h1>
-      </div>
-      <p className="my-6 tracking-wide">
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div className="mt-6 flex justify-center">
-        <a
-          className="uppercase hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-10 uppercase hover:underline"
-          href="https://tailwindcss.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tailwind
-        </a>
-      </div>
+    <div className="bg-nnotes-bg w-screen min-h-full flex flex-col">
+      {/* <div className="w-screen h-full flex justify-center items-center  p-24">
+        <Hero />
+      </div> */}
+      <TopBar />
+      {/*<div className="flex-1">
+        <Main />
+      </div> */}
+      <Footer />
     </div>
   );
 }
