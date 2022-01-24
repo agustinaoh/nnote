@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
 import { Notes } from "./Notes";
 import { NewNote } from "./NewNote";
-import { Note } from "./Note";
+// import { Note } from "./Note";
 
 export const Main = () => {
   const [notes, setNotes] = useState([]);
